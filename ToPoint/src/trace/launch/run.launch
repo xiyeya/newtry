@@ -1,0 +1,20 @@
+<launch>
+<node
+    pkg="turtlesim"
+    type="turtlesim_node"
+    name="turtlesim"
+    required="true"
+/>
+<node
+    pkg="trace"
+    type="change_color.py"
+    name="change_background_color_p"
+    output="screen"
+/>
+<node
+    pkg="trace"
+    type="turtleMove.py"
+    name="go_point"
+    output="screen"
+/>
+</launch>

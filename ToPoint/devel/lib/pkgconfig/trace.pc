@@ -1,0 +1,8 @@
+prefix=/home/xuan/projects/ToPoint/devel
+
+Name: trace
+Description: Description of trace
+Version: 0.0.0
+Cflags: -I/home/xuan/projects/ToPoint/devel/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs roscpp rospy std_msgs message_runtime turtlesim

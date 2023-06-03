@@ -1,0 +1,2 @@
+trace
+-DPYTHON_EXECUTABLE=/usr/bin/python3 -DCATKIN_DEVEL_PREFIX=/home/xuan/projects/ToPoint/devel -DCMAKE_INSTALL_PREFIX=/home/xuan/projects/ToPoint/install -G Unix Makefiles
